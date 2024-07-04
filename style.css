@@ -34,11 +34,10 @@
     padding: 10px;
 }
 
-/* Add margin to the element after the top bar */
-.element-after-top-bar {
-    margin-top: 75px; /* Adjust the value as needed */
-}
-
 .index-body {
     background-color: #fdf1d3;
+}
+
+main {
+    margin-top: 75px;
 }
