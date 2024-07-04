@@ -1,0 +1,44 @@
+/* CSS za header meni */
+.top-bar-navigation {
+    color: #fff;
+    padding: 10px;
+}
+
+.top-bar-navigation ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.top-bar-navigation li {
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.top-bar-navigation a {
+    color: blue;
+    text-decoration: none;
+    padding: 5px;
+}
+
+.top-bar-navigation a:hover {
+    color: #ff9900;
+}
+
+.top-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 10px;
+}
+
+/* Add margin to the element after the top bar */
+.element-after-top-bar {
+    margin-top: 75px; /* Adjust the value as needed */
+}
+
+.index-body {
+    background-color: #fdf1d3;
+}
